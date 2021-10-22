@@ -7,3 +7,5 @@ add_executable(mol mol.c)
 
 add_executable(admin admin.c)
 target_link_libraries(admin m)
+
+add_executable(admin-scanf admin-scanf.c)

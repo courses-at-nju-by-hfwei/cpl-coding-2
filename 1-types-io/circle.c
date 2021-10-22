@@ -8,9 +8,18 @@ int main() {
    * const: constant
    */
   const double PI = 3.14159;
-  int radius;
+  double radius; // float radius; (%f)
 
-  scanf("%d", &radius);
+  /**
+   * &: address-of operator
+   * %d: skip the white-spaces, then identify an integer
+   * %lf: skip the white-spaces, then identify a floating-point number
+   *   and assign it to a variable of double type
+   * count = scanf(...): the number of matched items
+   */
+  if (scanf("%lf", &radius) == 1) {
+    printf("radius = %d\ncount = %d\n", radius, count);
+  }
 
   double circumference = 0;
   /**
