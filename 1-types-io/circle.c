@@ -18,7 +18,7 @@ int main() {
    * count = scanf(...): the number of matched items
    */
   if (scanf("%lf", &radius) == 1) {
-    printf("radius = %d\ncount = %d\n", radius, count);
+    printf("radius = %f\n", radius);
   }
 
   double circumference = 0;

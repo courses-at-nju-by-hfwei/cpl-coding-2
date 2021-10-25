@@ -5,7 +5,7 @@
 		<Option title="c_pl_coding_2"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\0-intro\;CMake Files\1-types-io\;CMake Files\2-if-for-array\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\0-intro\;CMake Files\1-types-io\;CMake Files\2-if-for-array\;CMake Files\3-for-a-while\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug"/>
@@ -569,6 +569,386 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/2-if-for-array/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="selection-sort">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/selection-sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 selection-sort"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="selection-sort/fast">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/selection-sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 selection-sort/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="digits-while">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/digits-while" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 digits-while"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="digits-while/fast">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/digits-while" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 digits-while/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="primes">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/primes" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 primes"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="primes/fast">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/primes" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 primes/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="prime">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/prime" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 prime"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="prime/fast">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/prime" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 prime/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="palindrome">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/palindrome" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 palindrome"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="palindrome/fast">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/palindrome" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 palindrome/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="binary-search">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/binary-search" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 binary-search"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="binary-search/fast">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/binary-search" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 binary-search/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="digits-do-while">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/digits-do-while" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 digits-do-while"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="digits-do-while/fast">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/digits-do-while" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 digits-do-while/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stars">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/stars" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 stars"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stars/fast">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/stars" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 stars/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="counting-switch">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/counting-switch" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 counting-switch"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="counting-switch/fast">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/counting-switch" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 counting-switch/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="counting-if">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/counting-if" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 counting-if"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="counting-if/fast">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/counting-if" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 counting-if/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/3-for-a-while/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/0-intro/guess.c">
 			<Option target="guess"/>
@@ -612,6 +992,36 @@
 		<Unit filename="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/2-if-for-array/sum.c">
 			<Option target="sum"/>
 		</Unit>
+		<Unit filename="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/3-for-a-while/binary-search.c">
+			<Option target="binary-search"/>
+		</Unit>
+		<Unit filename="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/3-for-a-while/counting-if.c">
+			<Option target="counting-if"/>
+		</Unit>
+		<Unit filename="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/3-for-a-while/counting-switch.c">
+			<Option target="counting-switch"/>
+		</Unit>
+		<Unit filename="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/3-for-a-while/digits-do-while.c">
+			<Option target="digits-do-while"/>
+		</Unit>
+		<Unit filename="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/3-for-a-while/digits-while.c">
+			<Option target="digits-while"/>
+		</Unit>
+		<Unit filename="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/3-for-a-while/palindrome.c">
+			<Option target="palindrome"/>
+		</Unit>
+		<Unit filename="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/3-for-a-while/prime.c">
+			<Option target="prime"/>
+		</Unit>
+		<Unit filename="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/3-for-a-while/primes.c">
+			<Option target="primes"/>
+		</Unit>
+		<Unit filename="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/3-for-a-while/selection-sort.c">
+			<Option target="selection-sort"/>
+		</Unit>
+		<Unit filename="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/3-for-a-while/stars.c">
+			<Option target="stars"/>
+		</Unit>
 		<Unit filename="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
@@ -623,6 +1033,9 @@
 		</Unit>
 		<Unit filename="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/2-if-for-array/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\2-if-for-array\"/>
+		</Unit>
+		<Unit filename="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/3-for-a-while/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3-for-a-while\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
