@@ -7,3 +7,5 @@ B
 1-types-io/admin.c,d/4/d4d7fd396318e518d9a10f3ce6e695802ccf7b9e
 C
 1-types-io/circle.c,9/9/99d0e315414062edd28972056a0afb5a663eda23
+H
+1-types-io/admin-scanf.c,d/2/d2efd5208e7870644cc77948e888516ddceb7128

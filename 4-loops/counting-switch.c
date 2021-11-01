@@ -6,7 +6,6 @@
  */
 
 #include <stdio.h>
-#include <ctype.h>
 #define LEN 10
 
 int main() {
@@ -15,20 +14,25 @@ int main() {
   int other_count = 0;
 
   /**
-   * "if" version
-   *
+   * "switch-case" version
    * Note: fails to run this program in "Run"
    * See: https://youtrack.jetbrains.com/issue/CPP-5704
    * Use "Terminal" instead.
+   * Or use the "input redirection" technique.
    */
   char ch;
   while (scanf("%c", &ch) != EOF) {
-    if (isdigit(ch)) {
-      digit_count[ch - '0']++;
-    } else if (isspace(ch)) {
-      ws_count++;
-    } else {
-      other_count++;
+    switch (ch) {
+      case '0': case '1': case '2': case '3': case '4':
+      case '5': case '6': case '7': case '8': case '9':
+        digit_count[ch - '0']++;
+        break;
+      case ' ': case '\n': case '\t':
+        ws_count++;
+        break;
+      default:
+        other_count++;
+        break;
     }
   }
 
@@ -41,3 +45,4 @@ int main() {
 
   return 0;
 }
+

@@ -10,6 +10,3 @@ add_executable(palindrome palindrome.c)   # while; comma expression in for; brea
 add_executable(binary-search binary-search.c) # while; break
 add_executable(digits-while digits-while.c) # while
 add_executable(digits-do-while digits-do-while.c) # do-while
-
-add_executable(counting-if counting-if.c) # while for reading inputs; if
-add_executable(counting-switch counting-switch.c) # switch/case
