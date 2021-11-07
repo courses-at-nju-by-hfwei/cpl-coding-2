@@ -33,3 +33,17 @@ L
 3-for-a-while/digits-while.c,3/a/3acd7ce3a825226814dc5e782b104406f0c4008f
 M
 3-for-a-while/binary-search.c,c/4/c419af5e061910acbc7fc199869ad3a6de72b4e6
+@
+5-function/min.c,f/e/fed96e6287a19a56791b74138c33126776cad52c
+G
+5-function/palindrome.c,b/2/b2dfe802927213b290653df7fe89edffea3b4baf
+K
+5-function/selection-sort.c,2/d/2da279a89c76fcd5897b20a40cd5bbbdf4e14237
+B
+5-function/prime.c,4/4/447086be5b8697c3bd3dcb6cc98cb0df79d04d28
+A
+5-function/leap.c,b/2/b2a88239bae997ed462c1f7c0d60bfc0a7879b58
+@
+5-function/gcd.c,7/8/78e68b239eab43ecf8af4f0766b79c8bca693314
+I
+5-function/game-of-life.c,5/6/560ef34181c2094b7b89c23edf60dfba2c9174ee

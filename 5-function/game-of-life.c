@@ -10,16 +10,21 @@
 
 #include <stdio.h>
 #include <unistd.h>
+
+#define ROUND 10
 #define SIZE 6
 int board[SIZE][SIZE] = {
     {0},
-    {0, 1, 1, 0, 0, 0},
-    {0, 1, 1, 0, 0, 0},
-    {0, 0, 0, 1, 1, 0},
-    {0, 0, 0, 1, 1, 0},
+    {0},
+    {0, 0, 1, 1, 1, 0},
+    {0, 1, 1, 1, 0, 0},
+    {0},
     {0}};
 
 int main() {
+  /**
+   * (extended) board
+   */
   int old_board[SIZE + 2][SIZE + 2];
   for (int row = 0; row < SIZE + 2; row++) {
     for (int col = 0; col < SIZE + 2; col++) {
@@ -31,66 +36,58 @@ int main() {
     }
   }
 
-  for (int row = 1; row <= SIZE + 1; row++) {
-    for (int col = 1; col <= SIZE + 1; col++) {
+  for (int row = 1; row < SIZE + 1; row++) {
+    for (int col = 1; col < SIZE + 1; col++) {
       printf("%c ", old_board[row][col] ? '*' : ' ');
     }
     printf("\n");
   }
-  printf("\033c");
 
+  /**
+   * generate the next-round board
+   */
   int new_board[SIZE + 2][SIZE + 2];
 
-  for (int tick = 1; tick < 10; tick ++) {
-    for (int row = 1; row <= SIZE; row++) {
-      for (int col = 1; col <= SIZE; col++) {
-        int neighbours =
-            old_board[row - 1][col - 1] +
-                old_board[row - 1][col] +
-                old_board[row - 1][col + 1] +
-                old_board[row][col - 1] +
-                old_board[row][col + 1] +
-                old_board[row + 1][col - 1] +
-                old_board[row + 1][col] +
-                old_board[row + 1][col + 1];
+  for (int round = 0; round < ROUND; round++) {
+    for (int row = 1; row < SIZE + 1; row++) {
+      for (int col = 1; col < SIZE + 1; col++) {
+        int neighours = old_board[row - 1][col - 1]
+            + old_board[row - 1][col]
+            + old_board[row - 1][col + 1]
+            + old_board[row][col - 1]
+            + old_board[row][col + 1]
+            + old_board[row + 1][col - 1]
+            + old_board[row + 1][col]
+            + old_board[row + 1][col + 1];
 
-        if (old_board[row][col]) {
-          new_board[row][col] = (neighbours == 2 || neighbours == 3);
-        } else {
-          new_board[row][col] = (neighbours == 3);
-        }
+        new_board[row][col] =
+            (old_board[row][col] && (neighours == 2 || neighours == 3))
+                || (!old_board[row][col] && neighours == 3);
       }
     }
 
-    for (int row = 1; row <= SIZE; row++) {
-      for (int col = 1; col <= SIZE; col++) {
+    for (int row = 1; row < SIZE + 1; row++) {
+      for (int col = 1; col < SIZE + 1; col++) {
         printf("%c ", new_board[row][col] ? '*' : ' ');
       }
       printf("\n");
     }
 
+    sleep(1);
     /**
-     * sleep
-     * see https://stackoverflow.com/a/10923084
-     */
-    sleep(2);
-    /**
-     * Clear the console (in Linux)
-     * Warning: This is not robust!!! Just for demonstration.
-     * See https://stackoverflow.com/a/43884673/1833118
-     *
-     * In Windows, use
-     *     #include <conio.h>
-     *     clrscr();
+     * Work only in Linux
+     * Windows: clrscr(); (#include <conio.h>)
      */
     printf("\033c");
 
+    /**
+     * copy board
+     */
     for (int row = 0; row < SIZE + 2; row++) {
       for (int col = 0; col < SIZE + 2; col++) {
         old_board[row][col] = new_board[row][col];
       }
     }
-
   }
 
   return 0;
