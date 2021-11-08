@@ -7,6 +7,9 @@
 #define MAX 20
 int numbers[MAX] = {0};
 
+void SelectionSort(int arr[], int len);
+void Swap(int left, int right);
+
 int main() {
   /**
    * Input the array
@@ -17,44 +20,45 @@ int main() {
   int len = -1;
   while (scanf("%d", &numbers[++len]) != EOF);
 
-  /**
-   * Print it out
-   */
+  SelectionSort(numbers, len);
+
+  printf("\n");
   for (int i = 0; i < len; i++) {
     printf("%d ", numbers[i]);
   }
   printf("\n");
 
-  printf("--------------------\n");
+  return 0;
+}
+
+void SelectionSort(int arr[], int len) {
   for (int i = 0; i < len; ++i) {
-    int min = numbers[i];
+    int min = arr[i];
     int min_index = i;
 
     for (int j = i + 1; j < len; j++) {
-      if (min > numbers[j]) {
-        min = numbers[j];
+      if (min > arr[j]) {
+        min = arr[j];
         min_index = j;
       }
     }
 
-    printf("min = %d \t min_index = %d\n", min, min_index);
-
     /**
-     * swap numbers[i] and numbers[min_index]
+     * swap arr[i] and arr[min_index]
      */
-    int tmp = numbers[i];
-    numbers[i] = numbers[min_index];
-    numbers[min_index] = tmp;
+    // actual arguments
+//    Swap(arr[i], arr[min_index]);
 
-    /**
-     * Print it out again
-     */
-    for (int i = 0; i < len; i++) {
-      printf("%d ", numbers[i]);
-    }
-    printf("\n");
-    printf("--------------------\n");
+    int tmp = arr[i];
+    arr[i] = arr[min_index];
+    arr[min_index] = tmp;
   }
+}
 
-  return 0;
+// formal parameters
+// pass by value (传值)
+void Swap(int left, int right) {
+  int tmp = left;
+  left = right;
+  right = tmp;
 }
