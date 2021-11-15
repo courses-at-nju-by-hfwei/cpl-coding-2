@@ -9,7 +9,7 @@
 #include <stdio.h>
 #include <limits.h>
 
-#define LEN 93
+#define LEN 100
 
 int main() {
   long long fibs[LEN] = {0, 1};
@@ -17,8 +17,11 @@ int main() {
   int n;
   scanf("%d", &n);
 
+  for (int i = 2; i <= n; i++) {
+    fibs[i] = fibs[i - 1] + fibs[i - 2];
+  }
 
-  for (int i = 0; i < n; i++) {
+  for (int i = 0; i <= n; i++) {
     printf("%lld ", fibs[i]);
   }
 

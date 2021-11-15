@@ -10,6 +10,8 @@
 
 #define NUM 5
 
+int Sum(int nums[], int len);
+
 int main() {
   int numbers[NUM] = {0};
 
@@ -18,4 +20,12 @@ int main() {
   }
 
   return 0;
+}
+
+int Sum(int nums[], int len) {
+  if (len == 1) {
+    return nums[0];
+  }
+
+  return nums[len - 1] + Sum(nums, len - 1);
 }

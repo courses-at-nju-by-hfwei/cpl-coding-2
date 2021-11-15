@@ -10,7 +10,7 @@
 
 #define NUM 5
 
-int MinOfTwo(int a, int b);
+int Min(int nums[], int len);
 
 int main() {
   int numbers[NUM] = {0};
@@ -19,9 +19,15 @@ int main() {
     scanf("%d", &numbers[i]);
   }
 
+  printf("%d\n", Min(numbers, NUM));
   return 0;
 }
 
-int MinOfTwo(int a, int b) {
-  return a > b ? b : a;
+int Min(int nums[], int len) {
+  if (len == 1) {
+    return nums[0];
+  }
+
+  int min = Min(nums, len - 1);
+  return nums[len - 1] > min ? min : nums[len - 1];
 }

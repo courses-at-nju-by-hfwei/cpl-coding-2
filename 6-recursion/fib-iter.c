@@ -12,9 +12,17 @@ int main() {
   int n;
   scanf("%d", &n);
 
-  int fib1 = 0;
-  int fib2 = 1;
-  printf("%d %d ", fib1, fib2);
+  long long fib1 = 0;
+  long long fib2 = 1;
+  printf("%lld %lld ", fib1, fib2);
+
+  for (int i = 2; i <= n; i++) {
+    long long fib3 = fib1 + fib2;
+    printf("%lld ", fib3);
+
+    fib1 = fib2;
+    fib2 = fib3;
+  }
 
   return 0;
 }

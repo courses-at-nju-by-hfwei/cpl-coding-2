@@ -23,3 +23,15 @@ int main() {
 
   return 0;
 }
+
+int GCDEuclid(int a, int b) {
+  if (a == b) {
+    return a;
+  }
+
+  if (a > b) {
+    return GCDEuclid(a - b, b);
+  }
+
+  return GCDEuclid(a, b - a);
+}
