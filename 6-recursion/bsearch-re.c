@@ -1,11 +1,12 @@
 /**
+ * file: bsearch-re.c
+ *
  * Binary Search: the recursive version
  *
  * Created by hengxin on 11/14/21.
  */
 
 #include <stdio.h>
-
 #define LEN 10
 
 int main() {
@@ -13,6 +14,9 @@ int main() {
 
   int key;
   scanf("%d", &key);
+
+//  printf("The index of %d is %d.\n", key,
+//         );
 
   return 0;
 }

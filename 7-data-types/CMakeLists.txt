@@ -1,0 +1,6 @@
+add_executable(fp fp.c)
+add_executable(loop loop.c)
+add_executable(sums sums.c)
+add_executable(compare compare.c)
+target_link_libraries(compare m)
+add_executable(rand rand.c)

@@ -6,12 +6,13 @@
 
 #include <stdio.h>
 
-#define LEN 8
+//#define LEN 7
+//int numbers[LEN] = {38, 27, 43, 3, 9, 82, 10};
+
+#define LEN 10
+int numbers[LEN] = {4, 2, 8, 6, 0, 5, 1, 7, 3, 9};
 
 int main() {
-//int numbers[LEN] = {5, 2, 4, 7, 1, 3, 2, 6};
-  int numbers[LEN] = {6, 5, 3, 1, 8, 7, 2, 4};
-  int numbers_copy[LEN] = {0};
 
   for (int i = 0; i < LEN; i++) {
     printf("%d ", numbers[i]);
