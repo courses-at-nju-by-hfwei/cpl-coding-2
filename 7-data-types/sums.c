@@ -8,8 +8,8 @@
 #include <stdio.h>
 
 int main() {
-  float f = 0.1f;
-  float sum = 0.0f;
+  float f = 0.1F;
+  float sum = 0.0F;
 
   for (int i = 0; i < 10; ++i) {
     sum += f;
