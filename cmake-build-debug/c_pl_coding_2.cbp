@@ -5,7 +5,7 @@
 		<Option title="c_pl_coding_2"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\0-intro\;CMake Files\1-types-io\;CMake Files\2-if-for-array\;CMake Files\3-for-a-while\;CMake Files\4-loops\;CMake Files\5-function\;CMake Files\6-recursion\;CMake Files\7-data-types\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\0-intro\;CMake Files\1-types-io\;CMake Files\2-if-for-array\;CMake Files\3-for-a-while\;CMake Files\4-loops\;CMake Files\5-function\;CMake Files\6-recursion\;CMake Files\7-data-types\;CMake Files\8-pointer\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug"/>
@@ -2241,6 +2241,234 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/7-data-types/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="selection-sort-strings">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/selection-sort-strings" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 selection-sort-strings"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="selection-sort-strings/fast">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/selection-sort-strings" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 selection-sort-strings/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pointer">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/pointer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 pointer"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pointer/fast">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/pointer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 pointer/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="strcmp">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/strcmp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 strcmp"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="strcmp/fast">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/strcmp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 strcmp/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="selection_sort">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/selection_sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 selection_sort"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="selection_sort/fast">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/selection_sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 selection_sort/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="strcpy">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/strcpy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 strcpy"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="strcpy/fast">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/strcpy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 strcpy/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="strlen">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/strlen" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 strlen"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="strlen/fast">
+				<Option output="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/strlen" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 strlen/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hengxin/Documents/c-pl-class/c-pl-coding-2/cmake-build-debug/8-pointer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/0-intro/guess.c">
 			<Option target="guess"/>
@@ -2416,6 +2644,24 @@
 		<Unit filename="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/7-data-types/sums.c">
 			<Option target="sums"/>
 		</Unit>
+		<Unit filename="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/8-pointer/pointer.c">
+			<Option target="pointer"/>
+		</Unit>
+		<Unit filename="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/8-pointer/selection-sort-strings.c">
+			<Option target="selection-sort-strings"/>
+		</Unit>
+		<Unit filename="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/8-pointer/selection-sort.c">
+			<Option target="selection_sort"/>
+		</Unit>
+		<Unit filename="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/8-pointer/strcmp.c">
+			<Option target="strcmp"/>
+		</Unit>
+		<Unit filename="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/8-pointer/strcpy.c">
+			<Option target="strcpy"/>
+		</Unit>
+		<Unit filename="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/8-pointer/strlen.c">
+			<Option target="strlen"/>
+		</Unit>
 		<Unit filename="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
@@ -2442,6 +2688,9 @@
 		</Unit>
 		<Unit filename="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/7-data-types/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\7-data-types\"/>
+		</Unit>
+		<Unit filename="/home/hengxin/Documents/c-pl-class/c-pl-coding-2/8-pointer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\8-pointer\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
