@@ -8,7 +8,3 @@
 - `selection-sort.c` again
   - pointers and arrays
 - `strlen.c`
-- `strcmp.c`
-- `strcpy.c`
-- `selection-sort-strings.c`
-  - pointer array

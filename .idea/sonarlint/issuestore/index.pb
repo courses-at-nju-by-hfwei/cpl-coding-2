@@ -41,8 +41,6 @@ I
 5-function/game-of-life.c,5/6/560ef34181c2094b7b89c23edf60dfba2c9174ee
 G
 5-function/palindrome.c,b/2/b2dfe802927213b290653df7fe89edffea3b4baf
-K
-5-function/selection-sort.c,2/d/2da279a89c76fcd5897b20a40cd5bbbdf4e14237
 B
 5-function/merge.c,7/0/70c29dbbfd62ec8c68e965e4c2a84f59fcc1cb3b
 B
@@ -81,3 +79,5 @@ F
 7-data-types/compare.c,4/e/4ecf7db7b165554dc1240958862d62eaa405dbbb
 J
 5-function/binary-search.c,7/b/7b5786813c4da74478f6dbba39ecd7d41dd2b520
+B
+8-pointer/strcmp.c,3/8/38acc343acbff9773a7a3cdec30469fd6c8019e0

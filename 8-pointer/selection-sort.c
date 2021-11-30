@@ -5,12 +5,10 @@
  */
 
 #include <stdio.h>
-
-#define MAX 20
-int numbers[MAX] = {0};
+#include <stdlib.h>
 
 void SelectionSort(int arr[], int len);
-void Swap(int left, int right);
+void Swap(int *left, int *right);
 
 int main() {
   /**
@@ -19,8 +17,25 @@ int main() {
    * See: https://youtrack.jetbrains.com/issue/CPP-5704
    * Use "Terminal" instead.
    */
-  int len = -1;
-  while (scanf("%d", &numbers[++len]) != EOF);
+//  int len = -1;
+//  while (scanf("%d", &numbers[++len]) != EOF);
+
+  int len = 0;
+  printf("Please enter the number of integers to sort.\n");
+  scanf("%d", &len);
+
+  int *numbers = malloc(len * sizeof(*numbers));
+
+  if (numbers == NULL) {
+    printf("Error; No dynamic memory any more.\n");
+    return 0;
+  }
+
+  printf("Please enter %d integers.\n", len);
+
+  for (int i = 0; i < len; i++) {
+    scanf("%d", numbers + i);
+  }
 
   SelectionSort(numbers, len);
 
@@ -29,6 +44,8 @@ int main() {
     printf("%d ", numbers[i]);
   }
   printf("\n");
+
+  free(numbers);
 
   return 0;
 }
@@ -45,18 +62,12 @@ void SelectionSort(int arr[], int len) {
       }
     }
 
-    /**
-     * swap numbers[i] and numbers[min_index]
-     */
-    int tmp = arr[i];
-    arr[i] = arr[min_index];
-    arr[min_index] = tmp;
-//    Swap(numbers[i], numbers[min_index]);
+    Swap(&arr[i], &arr[min_index]);
   }
 }
 
-void Swap(int left, int right) {
-  int tmp = left;
-  left = right;
-  right = tmp;
+void Swap(int *left, int *right) {
+  int tmp = *left;
+  *left = *right;
+  *right = tmp;
 }
