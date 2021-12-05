@@ -80,4 +80,16 @@ F
 J
 5-function/binary-search.c,7/b/7b5786813c4da74478f6dbba39ecd7d41dd2b520
 B
-8-pointer/strcmp.c,3/8/38acc343acbff9773a7a3cdec30469fd6c8019e0
+8-pointer/strlen.c,7/c/7cf7de3400768bddd39691697d58bb5371fef885
+G
+9-pointer-more/strcpy.c,2/5/251b52da50bf59799fa7680cd5ef7925139a425a
+G
+9-pointer-more/strcmp.c,f/f/ff5d63d24437c09bae95f064bb6f7c0013c49d5b
+W
+'9-pointer-more/selection-sort-strings.c,7/e/7e96e27ff1d73f320f2f56c2e21da9fdcb8bfd15
+C
+8-pointer/pointer.c,b/c/bce26f4d461646a32949929e091e9d12cce124ac
+J
+8-pointer/selection-sort.c,0/8/08363ca627256fde896bffff85f9f5f945b38150
+K
+5-function/selection-sort.c,2/d/2da279a89c76fcd5897b20a40cd5bbbdf4e14237
