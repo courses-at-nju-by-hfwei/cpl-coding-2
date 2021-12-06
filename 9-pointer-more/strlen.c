@@ -11,6 +11,7 @@ size_t StrLenStd(const char *s);
 
 int main() {
   /**
+   * string literal (字面量)
    * a copy of "Hello World!" in the data segment
    */
   char msg[20] = "Hello World!";
@@ -24,8 +25,8 @@ int main() {
   // This will cause the "segment fault".
   *ptr_msg = 'N';
 
-  printf("The length of the message \"%s\" = %d\n",
-         msg, StrLen(msg));
+  printf("The length of the message \"%s\" = %zu\n",
+         msg, StrLenStd(msg));
 
   return 0;
 }

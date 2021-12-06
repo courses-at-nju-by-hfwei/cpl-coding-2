@@ -47,7 +47,7 @@ void SelectionSort(int arr[], int len) {
      * swap arr[i] and arr[min_index]
      */
     // actual arguments
-//    Swap(arr[i], arr[min_index]);
+//    SwapWrong(arr[i], arr[min_index]);
 
     int tmp = arr[i];
     arr[i] = arr[min_index];
