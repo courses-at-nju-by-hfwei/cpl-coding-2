@@ -89,3 +89,5 @@ K
 5-function/selection-sort.c,2/d/2da279a89c76fcd5897b20a40cd5bbbdf4e14237
 D
 2-if-for-array/sum.c,8/e/8e42b6c4d00751ea3234b19d98585dafa926d5b0
+G
+9-pointer-more/strcmp.c,f/f/ff5d63d24437c09bae95f064bb6f7c0013c49d5b

@@ -2,30 +2,38 @@
  * file: sort.c
  *
  * Created by hengxin on 12/5/21.
+ *
+ * A good function pointer example on Riemann integration:
+ * https://en.wikipedia.org/wiki/Function_pointer
  */
 
 #include <stdio.h>
+#include <stdlib.h>
 #include <limits.h>
-
-#define LEN 10
+#include <string.h>
 
 void PrintInts(const int integers[], int len);
-
 void PrintStrs(const char *str[], int len);
 
 int main() {
   /**
-   * Sorting an array of integers using qsort
+   * Sorting an array of integers
    */
   int integers[] = { -2, 99, 0, -743, 2, INT_MIN, 4 };
-  int size_of_integers = sizeof integers / sizeof *integers;
-
-  PrintInts(integers, size_of_integers);
 
   /**
-   * Sorting an array of strings using qsort
+   * void qsort( void *ptr, size_t count, size_t size,
+            int (*comp)(const void *, const void *) );
    */
-  const char *names[LEN] = {
+
+  /**
+   * You can call functions indirectly via function pointers.
+   */
+
+  /**
+   * Sorting an array of strings
+   */
+  const char *names[] = {
       "Luo Dayou",
       "Cui Jian",
       "Dou Wei",
@@ -37,9 +45,6 @@ int main() {
       "Hu Mage",
       "Li Zhi"
   };
-  int size_of_names = sizeof names / sizeof *names;
-
-  PrintStrs(names, LEN);
 }
 
 void PrintInts(const int integers[], int len) {
