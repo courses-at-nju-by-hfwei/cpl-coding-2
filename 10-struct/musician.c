@@ -8,12 +8,43 @@
 #include <stdlib.h>
 #include <string.h>
 
+typedef struct musician {
+  char *name;
+  char gender;
+  char *album;
+  int c_score;
+  int java_score;
+  int python_score;
+} Musician;
+
+void PrintMusician(Musician *m);
+
 int main() {
-  char *name = "Luo Dayou";
-  char gender = 'M';
-  // https://www.bilibili.com/video/BV18f4y1h7gU/
-  char *album = "之乎者也";
-  int c_score = 0;
-  int java_score = 10;
-  int python_score = 20;
+  Musician luo = {
+      "Luo Dayou",
+      'M',
+      "zhihuzheye",
+      0, 10, 20
+  };
+
+  Musician cui = {
+      .name = "Cui Jian",
+      .gender = 'M',
+      .album = "新长征路上的摇滚",
+      .c_score = 10,
+      .java_score = 20,
+      .python_score = 30
+  };
+
+  PrintMusician(&luo);
+}
+
+void PrintMusician(Musician *m) {
+  printf("%s\n%c\n%s\n%d\t%d\t%d\n",
+         m->name, // shortcut for (*m).name,
+         m->gender,
+         m->album,
+         m->c_score,
+         m->java_score,
+         m->python_score);
 }

@@ -91,3 +91,11 @@ D
 2-if-for-array/sum.c,8/e/8e42b6c4d00751ea3234b19d98585dafa926d5b0
 G
 9-pointer-more/strcmp.c,f/f/ff5d63d24437c09bae95f064bb6f7c0013c49d5b
+G
+9-pointer-more/strlen.c,a/f/af7c0880dd32f927d550adabbbee602b2efdb38f
+G
+9-pointer-more/strcpy.c,2/5/251b52da50bf59799fa7680cd5ef7925139a425a
+W
+'9-pointer-more/selection-sort-strings.c,7/e/7e96e27ff1d73f320f2f56c2e21da9fdcb8bfd15
+N
+9-pointer-more/array-pointer.c,1/7/179c8c5ab4a6bdc4efdf0899b27c47254fcaf9f4
