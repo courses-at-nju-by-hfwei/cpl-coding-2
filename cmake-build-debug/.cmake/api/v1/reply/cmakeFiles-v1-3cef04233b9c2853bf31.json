@@ -129,6 +129,9 @@
 		},
 		{
 			"path" : "10-struct/CMakeLists.txt"
+		},
+		{
+			"path" : "11-linkedlist/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

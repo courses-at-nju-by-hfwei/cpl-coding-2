@@ -36,6 +36,15 @@ int main() {
       .python_score = 30
   };
 
+  Musician zhang = {
+      .name = "Zhang Chu",
+      .gender = 'M',
+      .album = "一颗不肯媚俗的心",
+      .c_score = 0,
+      .java_score = 10,
+      .python_score = 20
+  };
+
   PrintMusician(&luo);
 }
 

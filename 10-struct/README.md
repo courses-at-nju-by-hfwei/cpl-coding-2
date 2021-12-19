@@ -10,6 +10,11 @@
 
 ## Structures
 - `musician.c`
+  - `struct array`
+    - `qsort`
+  - `struct in struct`
+  - `enum`
+  - `copy struct`
 
 ## Backup
 - `printf ...`
