@@ -1,10 +1,11 @@
-//
-// file: ll.h
-//
-// It contains the declarations of types and functions
-// of the linked list.
-// Created by hengxin on 12/20/21.
-//
+/**
+ * file: ll.h
+ *
+ * It contains the declarations of types and functions
+ * of the linked list.
+ *
+ * Created by hengxin on 12/20/21.
+ */
 
 #ifndef C_PL_CODING_2_11_LINKEDLIST_LL_LL_H_
 #define C_PL_CODING_2_11_LINKEDLIST_LL_LL_H_

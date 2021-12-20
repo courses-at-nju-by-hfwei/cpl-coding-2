@@ -1,8 +1,10 @@
-//
-// file: ll.c
-// It contains the implementation of the linked list.
-// Created by hengxin on 12/20/21.
-//
+/**
+ * file: ll.c
+ *
+ * It contains the implementation of the linked list.
+ *
+ * Created by hengxin on 12/20/21.
+ */
 
 #include <stddef.h>
 #include <stdlib.h>
