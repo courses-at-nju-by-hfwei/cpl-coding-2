@@ -99,3 +99,13 @@ W
 '9-pointer-more/selection-sort-strings.c,7/e/7e96e27ff1d73f320f2f56c2e21da9fdcb8bfd15
 N
 9-pointer-more/array-pointer.c,1/7/179c8c5ab4a6bdc4efdf0899b27c47254fcaf9f4
+@
+10-struct/echo.c,3/d/3d84f1d48e926481e2f75efbe09a646c108db70c
+E
+10-struct/echo-flag.c,4/b/4b858888ff490050a338a53677b824e5047be6b1
+@
+10-struct/sort.c,0/1/014ef5988d8179d6f951668fa12e84ead4caafe1
+@
+10-struct/decl.c,c/4/c476983d5320d331d13cc3f657c6253038c0dca0
+D
+10-struct/musician.c,f/e/fe81e210f9a700d445ee878ab406e60f276c210a
